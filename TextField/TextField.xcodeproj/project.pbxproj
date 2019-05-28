@@ -12,6 +12,8 @@
 		611CCEF7229D0951000F4B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611CCEF5229D0951000F4B0F /* Main.storyboard */; };
 		611CCEF9229D0952000F4B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611CCEF8229D0952000F4B0F /* Assets.xcassets */; };
 		611CCEFC229D0952000F4B0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611CCEFA229D0952000F4B0F /* LaunchScreen.storyboard */; };
+		611CCF04229D0BE4000F4B0F /* TextFieldBorderStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611CCF03229D0BE4000F4B0F /* TextFieldBorderStyleViewController.swift */; };
+		611CCF06229D1181000F4B0F /* TextFieldOverlayViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611CCF05229D1181000F4B0F /* TextFieldOverlayViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		611CCEF8229D0952000F4B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		611CCEFB229D0952000F4B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		611CCEFD229D0952000F4B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611CCF03229D0BE4000F4B0F /* TextFieldBorderStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBorderStyleViewController.swift; sourceTree = "<group>"; };
+		611CCF05229D1181000F4B0F /* TextFieldOverlayViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOverlayViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				611CCEF8229D0952000F4B0F /* Assets.xcassets */,
 				611CCEFA229D0952000F4B0F /* LaunchScreen.storyboard */,
 				611CCEFD229D0952000F4B0F /* Info.plist */,
+				611CCF03229D0BE4000F4B0F /* TextFieldBorderStyleViewController.swift */,
+				611CCF05229D1181000F4B0F /* TextFieldOverlayViewViewController.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				611CCF06229D1181000F4B0F /* TextFieldOverlayViewViewController.swift in Sources */,
 				611CCEF4229D0951000F4B0F /* ViewController.swift in Sources */,
 				611CCEF2229D0951000F4B0F /* AppDelegate.swift in Sources */,
+				611CCF04229D0BE4000F4B0F /* TextFieldBorderStyleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

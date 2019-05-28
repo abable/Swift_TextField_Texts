@@ -10,11 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var inputField: UITextField!
+    
+    @IBOutlet weak var valueLabel: UILabel!
+    
+    @IBAction func report(_ sender: Any) {
+        guard let input = inputField.text, input.count > 0 else {
+            return
+        }
+        
+        valueLabel.text = input
+        
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+        inputField.placeholder = "Input Value"
     }
-
-
 }
 
